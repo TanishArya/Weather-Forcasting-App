@@ -1,28 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather App</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <style>
+    /* Add your styles here */
+  </style>
 </head>
+
 <body>
-    <div class="container">
-        <section class="main">
-            <input type="text" placeholder="Enter Your City" id="Cityinput
-            ">
-            <input type="submit" value="Submit" id="add">
-            <button placeholde="submit" id="add"></button>
-        </section>
-        <section class="display">
-            <div class="wrapper">
-                <h2 class="cityoutput"></h2>
-                <p id="description"></p>
-                <p id="temp"></p>
-                <p id="wind" ></p>
-            </div>
-        </section>
-    </div>
-<script src="script.js"></script>
+  <div class="container">
+    <section class="main">
+      <!-- Add 'for' attribute to the input element for accessibility purposes -->
+      <input type="text" placeholder="Enter Your City" id="cityinput">
+      <!-- Add type='submit' to the button element -->
+      <button type="submit" id="add">Submit</button>
+    </section>
+    <section class="display">
+      <div class="wrapper">
+        <h2 class="cityoutput"></h2>
+        <p id="description"></p>
+        <p id="temp"></p>
+        <p id="wind"></p>
+      </div>
+    </section>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
